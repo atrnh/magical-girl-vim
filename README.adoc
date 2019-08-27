@@ -1,1 +1,1 @@
-image::screenshot.png[Sceenshot,300]
+image::screenshot.png[Sceenshot,100%]
