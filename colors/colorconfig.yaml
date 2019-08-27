@@ -1,0 +1,93 @@
+colors:
+  raspberry: '#f41f68'
+  snow: '#ffffff'
+  cloud: '#fbfbfb'
+  rain_cloud: '#e8e8e8'
+  storm_cloud: '#6b6b6b'
+  coal: '#000000'
+  grape: '#ab60e6'
+  blueberry: '#736ee9'
+  navy: '#402d99'
+  mint: '#36ba75'
+  cream: '#fff2dd'
+  midnight: '#5b5194'
+  pink: '#f682f1'
+  pink_light: '#ffe0f5'
+  violet: '#e695ff'
+  black: '#692fd5'
+  black_bright: '#a4b6da'
+  red: '#e22b75'
+  red_bright: '#fc9494'
+  green: '#01c8ba'
+  green_bright: '#74efa9'
+  yellow: '#ff2f6f'
+  yellow_bright: '#ffca66'
+  blue: '#2199ff'
+  blue_bright: '#7daaff'
+  magenta: '#fd28a2'
+  magenta_bright: '#ff88e9'
+  cyan: '#a489fc'
+  cyan_bright: '#88e7e0'
+  white: '#002bcf'
+  white_bright: '#9b61e8'
+  ui_bg: '#e7e5ff'
+  filepath: '#161464'
+
+colorgroups:
+  - { group: 'Normal', guifg: 'black', guibg: 'cloud' }
+  - { group: 'Darker', guifg: 'coal', guibg: 'rain_cloud' }
+  - { group: 'ColorColumn', guifg: 'snow', guibg: 'ui_bg' }
+  - { group: 'Conceal', guifg: 'yellow_bright', gui: 'bold' }
+  - { group: 'Cursor', guifg: 'black', guibg: 'ui_bg' }
+  - { group: 'CursorLine', guifg: 'black', guibg: 'cream' }
+  - { group: 'CursorLineNr', guifg: 'white_bright', guibg: 'cloud' }
+  - { group: 'Directory', guifg: 'navy', guibg: 'cloud' }
+  - { group: 'Error', guifg: 'red', guibg: 'cloud' }
+  - { group: 'ErrorMsg', guifg: 'red', guibg: 'cloud' }
+  - { group: 'FoldColumn', guibg: 'grape' }
+  - { group: 'Folded', guifg: 'cloud', guibg: 'grape' }
+  - { group: 'LineNr', guifg: 'cyan', guibg: 'cloud' }
+  - { group: 'LineNr', guifg: 'black_bright', guibg: 'cloud' }
+  - { group: 'MatchParen', guifg: 'cloud', guibg: 'magenta' }
+  - { group: 'ModeMsg', guifg: 'cloud', guibg: 'green' }
+  - { group: 'Pmenu', guifg: 'coal', guibg: 'rain_cloud' }
+  - { group: 'PmenuSel', guifg: 'white', guibg: 'cream' }
+  - { group: 'PmenuSbar', guibg: 'cloud' }
+  - { group: 'Search', guibg: 'cream', gui: 'underline' }
+  - { group: 'SignColumn', guibg: 'cloud' }
+  - { group: 'Title', guifg: 'magenta', gui: 'bold' }
+  - { group: 'Todo', guifg: 'yellow', guibg: 'cream' }
+  - { group: 'VertSplit', guifg: 'cloud', guibg: 'cloud' }
+  - { group: 'Visual', guifg: 'black', guibg: 'cyan_bright' }
+  - { group: 'WarningMsg', guifg: 'red', guibg: 'snow' }
+  - { group: 'Access', guifg: 'white_bright', gui: 'bold' }
+  - { group: 'Comment', guifg: 'grape', gui: 'italic' }
+  - { group: 'Class', guifg: 'magenta', gui: 'italic' }
+  - { group: 'Conditional', guifg: 'blue' }
+  - { group: 'Constant', guifg: 'yellow', gui: 'bold' }
+  - { group: 'Delimiter', guifg: 'magenta' }
+  - { group: 'Function', guifg: 'magenta_bright' }
+  - { group: 'Identifier', guifg: 'white' }
+  - { group: 'Module', guifg: 'magenta', gui: 'underline' }
+  - { group: 'NonText', guifg: 'rain_cloud' }
+  - { group: 'Number', guifg: 'magenta_bright' }
+  - { group: 'PreProc', guifg: 'yellow' }
+  - { group: 'Statement', guifg: 'magenta' }
+  - { group: 'Special', guifg: 'red' }
+  - { group: 'SpecialKey', guifg: 'yellow' }
+  - { group: 'String', guifg: 'blueberry' }
+  - { group: 'StorageClass', guifg: 'midnight', gui: 'bold' }
+  - { group: 'Structure', guifg: 'white_bright' }
+  - { group: 'Symbol', guifg: 'yellow' }
+  - { group: 'Type', guifg: 'black' }
+  - { group: 'Underlined', guifg: 'black_bright', gui: 'underline' }
+  - { group: 'StatusLine', guifg: 'storm_cloud', guibg: 'ui_bg' }
+  - { group: 'StatusLineNC', guifg: 'storm_cloud', guibg: 'snow' }
+  - { group: 'TabLineFill', guifg: 'blueberry', guibg: 'snow' }
+  - { group: 'TabLineSel', guifg: 'snow', guibg: 'violet', gui: 'bold' }
+  - { group: 'TabLineAltShade', guifg: 'ui_bg', guibg: 'snow' }
+  - { group: 'User1', guifg: 'black', guibg: 'ui_bg' }
+  - { group: 'User2', guifg: 'snow', guibg: 'ui_bg' }
+  - { group: 'User3', guifg: 'mint', guibg: 'ui_bg' }
+  - { group: 'User4', guifg: 'black_bright', guibg: 'ui_bg' }
+
